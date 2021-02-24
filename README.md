@@ -31,5 +31,7 @@ double -> float -> long -> int -> char -> short -> byte
 
     double myDouble = 9.78;
     int myInt = (int) myDouble; // Manual casting: double to int
+    
+https://www.w3schools.com/java/java_type_casting.asp
 
 
