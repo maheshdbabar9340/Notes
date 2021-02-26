@@ -447,3 +447,38 @@ This means that you can add items, change items, remove items and clear the list
             removeLast()	Remove an item from the end of the list	
             getFirst()	      Get the item at the beginning of the list	
             getLast()	      Get the item at the end of the list
+
+A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
+
+            import java.util.HashMap;
+
+            public class Main {
+              public static void main(String[] args) {
+                // Create a HashMap object called capitalCities
+                HashMap<String, String> capitalCities = new HashMap<String, String>();
+
+                // Add keys and values (Country, City)
+                capitalCities.put("England", "London");
+                capitalCities.put("Germany", "Berlin");
+                capitalCities.put("Norway", "Oslo");
+                capitalCities.put("USA", "Washington DC");
+                System.out.println(capitalCities);
+              }
+            }
+         
+Use the keySet() method if you only want the keys, and use the values() method if you only want the values
+
+            // Print keys
+            for (String i : capitalCities.keySet()) {
+              System.out.println(i);
+            }
+            
+            // Print values
+            for (String i : capitalCities.values()) {
+              System.out.println(i);
+            }
+            
+            // Print keys and values
+            for (String i : capitalCities.keySet()) {
+              System.out.println("key: " + i + " value: " + capitalCities.get(i));
+            }
