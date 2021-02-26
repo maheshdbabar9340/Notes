@@ -359,3 +359,15 @@ This method is useful when you want to loop through the constants of an enum:
 Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
 
 https://www.w3schools.com/java/java_enums.asp
+
+
+The Scanner class is used to get user input, and it is found in the java.util package.
+
+      nextBoolean()	Reads a boolean value from the user
+      nextByte()	      Reads a byte value from the user
+      nextDouble()	Reads a double value from the user
+      nextFloat()	      Reads a float value from the user
+      nextInt()	      Reads a int value from the user
+      nextLine()	      Reads a String value from the user
+      nextLong()	      Reads a long value from the user
+      nextShort()	      Reads a short value from the user
