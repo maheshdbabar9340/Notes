@@ -339,3 +339,21 @@ An interface cannot contain a constructor (as it cannot be used to create object
                     }
                   }
 https://www.w3schools.com/java/java_interface.asp
+
+
+An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).
+
+To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. 
+
+They should be in uppercase letters:
+
+The enum type has a values() method, which returns an array of all enum constants. 
+
+This method is useful when you want to loop through the constants of an enum:
+
+            for (Level myVar : Level.values()) {
+              System.out.println(myVar);
+            }
+            
+
+Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
