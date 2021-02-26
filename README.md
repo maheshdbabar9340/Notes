@@ -539,3 +539,62 @@ The remove() method can remove items from a collection while looping.
                 System.out.println(numbers);
               }
             }
+
+
+To create a wrapper object, use the wrapper class instead of the primitive type. To get the value, you can just print the object:
+
+            public class Main {
+              public static void main(String[] args) {
+                Integer myInt = 5;
+                Double myDouble = 5.99;
+                Character myChar = 'A';
+                System.out.println(myInt);
+                System.out.println(myDouble);
+                System.out.println(myChar);
+              }
+            }
+            
+Another useful method is the toString() method, which is used to convert wrapper objects to strings.
+
+            public class Main { 
+              public static void main(String[] args) { 
+                Integer myInt = 100; 
+                String myString = myInt.toString();
+                System.out.println(myString.length());
+              }
+            }
+
+
+The try statement allows you to define a block of code to be tested for errors while it is being executed.
+
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+            public class Main {
+              public static void main(String[] args) {
+                try {
+                  int[] myNumbers = {1, 2, 3};
+                  System.out.println(myNumbers[10]);
+                } catch (Exception e) {
+                  System.out.println("Something went wrong.");
+                } finally {
+                  System.out.println("The 'try catch' is finished.");
+                }
+              }
+            }
+            
+The throw statement allows you to create a custom error.
+
+            public class Main {
+              static void checkAge(int age) {
+                if (age < 18) {
+                  throw new ArithmeticException("Access denied - You must be at least 18 years old.");
+                }
+                else {
+                  System.out.println("Access granted - You are old enough!");
+                }
+              }
+
+              public static void main(String[] args) {
+                checkAge(15); // Set age to 15 (which is below 18...)
+              }
+            }
