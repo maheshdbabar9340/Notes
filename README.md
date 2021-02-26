@@ -357,3 +357,5 @@ This method is useful when you want to loop through the constants of an enum:
             
 
 Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
+
+https://www.w3schools.com/java/java_enums.asp
