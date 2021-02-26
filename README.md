@@ -482,3 +482,60 @@ Use the keySet() method if you only want the keys, and use the values() method i
             for (String i : capitalCities.keySet()) {
               System.out.println("key: " + i + " value: " + capitalCities.get(i));
             }
+
+
+A HashSet is a collection of items where every item is unique, and it is found in the java.util package:
+
+            import java.util.HashSet;
+
+            public class Main {
+              public static void main(String[] args) {
+
+                // Create a HashSet object called numbers
+                HashSet<Integer> numbers = new HashSet<Integer>();
+
+                // Add values to the set
+                numbers.add(4);
+                numbers.add(7);
+                numbers.add(8);
+
+                // Show which numbers between 1 and 10 are in the set
+                for(int i = 1; i <= 10; i++) {
+                  if(numbers.contains(i)) {
+                    System.out.println(i + " was found in the set.");
+                  } else {
+                    System.out.println(i + " was not found in the set.");
+                  }
+                }
+              }
+            }
+            
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. 
+
+It is called an "iterator" because "iterating" is the technical term for looping.
+
+
+Iterators are designed to easily change the collections that they loop through.
+
+The remove() method can remove items from a collection while looping.
+
+            import java.util.ArrayList;
+            import java.util.Iterator;
+
+            public class Main {
+              public static void main(String[] args) {
+                ArrayList<Integer> numbers = new ArrayList<Integer>();
+                numbers.add(12);
+                numbers.add(8);
+                numbers.add(2);
+                numbers.add(23);
+                Iterator<Integer> it = numbers.iterator();
+                while(it.hasNext()) {
+                  Integer i = it.next();
+                  if(i < 10) {
+                    it.remove();
+                  }
+                }
+                System.out.println(numbers);
+              }
+            }
