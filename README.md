@@ -405,3 +405,45 @@ While elements can be added and removed from an ArrayList whenever you want.
                 }
               }
             }
+
+
+The LinkedList class is almost identical to the ArrayList
+
+            import java.util.LinkedList;
+
+            public class Main {
+              public static void main(String[] args) {
+                LinkedList<String> cars = new LinkedList<String>();
+                cars.add("Volvo");
+                cars.add("BMW");
+                cars.add("Ford");
+                cars.add("Mazda");
+                System.out.println(cars);
+              }
+            }
+            
+            
+ 
+The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
+
+The LinkedList class has all of the same methods as the ArrayList class because they both implement the List interface. 
+
+This means that you can add items, change items, remove items and clear the list in the same way.
+
+            It is best to use an ArrayList when:
+
+            You want to access random items frequently
+            You only need to add or remove elements at the end of the list
+            
+            It is best to use a LinkedList when:
+
+            You only use the list by looping through it instead of accessing random items
+            You frequently need to add and remove items from the beginning, middle or end of the
+            list
+            
+            addFirst()	      Adds an item to the beginning of the list.	
+            addLast()	      Add an item to the end of the list	
+            removeFirst()	Remove an item from the beginning of the list.	
+            removeLast()	Remove an item from the end of the list	
+            getFirst()	      Get the item at the beginning of the list	
+            getLast()	      Get the item at the end of the list
