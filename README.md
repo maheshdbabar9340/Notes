@@ -35,6 +35,7 @@ double -> float -> long -> int -> char -> short -> byte
 https://www.w3schools.com/java/java_type_casting.asp
 
 
+
 In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects:
 
       public class Main {
@@ -178,3 +179,25 @@ Polymorphism means "many forms", and it occurs when we have many classes that ar
       }
       
 https://www.w3schools.com/java/java_polymorphism.asp
+
+In Java, it is also possible to nest classes (a class within a class). 
+
+The purpose of nested classes is to group classes that belong together, which makes your code more readable and maintainable.
+
+      class OuterClass {
+        int x = 10;
+
+        class InnerClass {
+          int y = 5;
+        }
+      }
+
+      public class Main {
+        public static void main(String[] args) {
+          OuterClass myOuter = new OuterClass();
+          OuterClass.InnerClass myInner = myOuter.new InnerClass();
+          System.out.println(myInner.y + myOuter.x);
+        }
+      }
+      
+https://www.w3schools.com/java/java_inner_classes.asp
