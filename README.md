@@ -314,27 +314,27 @@ An interface cannot contain a constructor (as it cannot be used to create object
 3) However, it can be achieved with interfaces, because the class can implement multiple interfaces. 
 4) To implement multiple interfaces, separate them with a comma (see example below).
 
-      interface FirstInterface {
-        public void myMethod(); // interface method
-      }
+                  interface FirstInterface {
+                    public void myMethod(); // interface method
+                  }
 
-      interface SecondInterface {
-        public void myOtherMethod(); // interface method
-      }
+                  interface SecondInterface {
+                    public void myOtherMethod(); // interface method
+                  }
 
-      class DemoClass implements FirstInterface, SecondInterface {
-        public void myMethod() {
-          System.out.println("Some text..");
-        }
-        public void myOtherMethod() {
-          System.out.println("Some other text...");
-        }
-      }
+                  class DemoClass implements FirstInterface, SecondInterface {
+                    public void myMethod() {
+                      System.out.println("Some text..");
+                    }
+                    public void myOtherMethod() {
+                      System.out.println("Some other text...");
+                    }
+                  }
 
-      class Main {
-        public static void main(String[] args) {
-          DemoClass myObj = new DemoClass();
-          myObj.myMethod();
-          myObj.myOtherMethod();
-        }
-      }
+                  class Main {
+                    public static void main(String[] args) {
+                      DemoClass myObj = new DemoClass();
+                      myObj.myMethod();
+                      myObj.myOtherMethod();
+                    }
+                  }
