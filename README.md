@@ -371,3 +371,11 @@ The Scanner class is used to get user input, and it is found in the java.util pa
       nextLine()	      Reads a String value from the user
       nextLong()	      Reads a long value from the user
       nextShort()	      Reads a short value from the user
+
+
+Java does not have a built-in Date class, but we can import the java.time package to work with the date and time API. 
+
+      LocalDate	      Represents a date (year, month, day (yyyy-MM-dd))
+      LocalTime	      Represents a time (hour, minute, second and nanoseconds (HH-mm-ss-ns))
+      LocalDateTime	Represents both a date and a time (yyyy-MM-dd-HH-mm-ss-ns)
+      DateTimeFormatter	Formatter for displaying and parsing date-time objects
