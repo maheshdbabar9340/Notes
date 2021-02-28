@@ -1025,3 +1025,30 @@ It is a Scanner class method which returns true if the next token matches the pa
 
 3.Java Scanner hasNext (Pattern pattern) Method:
 It is a Scanner class method which returns true if the next complete token matches the specified pattern.
+
+Java Convert int to String
+
+
+1) String.valueOf()
+
+The String.valueOf() method converts int to String. The valueOf() is the static method of String class. 
+
+		int i=10;  
+		String s=String.valueOf(i);//Now it will return "10"  
+		
+
+2) Integer.toString()
+
+The Integer.toString() method converts int to String. The toString() is the static method of Integer class. 
+
+		String s=Integer.toString(i);//Now it will return "10"  
+		
+3) String.format()
+The String.format() method is used to format given arguments into String. 
+
+		public class IntToStringExample3{  
+		public static void main(String args[]){  
+		int i=200;  
+		String s=String.format("%d",i);  
+		System.out.println(s);  
+		}}  
