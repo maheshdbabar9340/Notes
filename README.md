@@ -979,3 +979,40 @@ A list of all Math methods can be found in the table below:
 		toDegrees(x)	Converts an angle measured in radians to an approx. equivalent angle measured in degrees	double
 		toRadians(x)	Converts an angle measured in degrees to an approx. angle measured in radians	double
 		ulp(x)	Returns the size of the unit of least precision (ulp) of x	double|float
+
+
+Java nextLine() method
+
+The nextLine() method of Scanner class is used to take a string from the user. It is defined in java.util.Scanner class. 
+
+The nextLine() method reads the text until the end of the line. After reading the line, it throws the cursor to the next line.
+
+		import java.util.*;  
+		class UserInputDemo1  
+		{  
+		public static void main(String[] args)  
+		{  
+		Scanner sc= new Scanner(System.in); //System.in is a standard input stream  
+		System.out.print("Enter a string: ");  
+		String str= sc.nextLine();              //reads string   
+		System.out.print("You have entered: "+str);             
+		}  
+		}  
+		
+Java next() method
+
+Java next() method can read the input before the space id found. It cannot read two words separated by space. 
+
+It retains the cursor in the same line after reading the input.
+
+		import java.util.*;  
+		class UserInputDemo2  
+		{  
+		public static void main(String[] args)  
+		{  
+		Scanner sc= new Scanner(System.in);  //System.in is a standard input stream  
+		System.out.print("Enter a string: ");  
+		String str= sc.next();   //reads string before the space  
+		System.out.print("You have entered: "+str);             
+		}  
+		}
