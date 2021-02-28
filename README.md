@@ -1016,3 +1016,12 @@ It retains the cursor in the same line after reading the input.
 		System.out.print("You have entered: "+str);             
 		}  
 		}
+
+1.Java Scanner hasNext () Method:
+It is a Scanner class method which returns true if this scanner has another token in its input. This method may block while waiting for input to scan.
+
+2.Java Scanner hasNext (String pattern) Method:
+It is a Scanner class method which returns true if the next token matches the pattern constructed from the specified string.
+
+3.Java Scanner hasNext (Pattern pattern) Method:
+It is a Scanner class method which returns true if the next complete token matches the specified pattern.
