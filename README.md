@@ -1052,3 +1052,34 @@ The String.format() method is used to format given arguments into String.
 		String s=String.format("%d",i);  
 		System.out.println(s);  
 		}}  
+
+
+The Java Locale class object represents a specific geographic, cultural, or political region. 
+
+It is a mechanism to for identifying objects, not a container for the objects themselves. 
+
+A Locale object logically consists of the fields like languages, script, country, variant, extensions.
+
+		package tests;  
+		import java.util.*;  
+		public class JavaLocaleExample1   
+		{  
+		   public static void main(String[] args)   
+		   {  
+		      // create a new locale  
+		      Locale locale1 = new Locale("EN", "INDIA");  
+
+		      // print locale  
+		      System.out.println("Locale: " + locale1);  
+
+		      // print language  
+		      System.out.println("Language: " + locale1.getDisplayLanguage());  
+
+		      // print country   
+		      System.out.println("Country Name: "  
+						 + locale1.getDisplayCountry());  
+
+		      // get a hash code and print it  
+		      System.out.println("HashCode for this locale: " + locale1.hashCode());  
+		   }  
+		}
