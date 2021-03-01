@@ -1061,7 +1061,7 @@ It is a mechanism to for identifying objects, not a container for the objects th
 A Locale object logically consists of the fields like languages, script, country, variant, extensions.
 
 		package tests;  
-		import java.util.*;  
+		import java.util.Locale;  
 		public class JavaLocaleExample1   
 		{  
 		   public static void main(String[] args)   
