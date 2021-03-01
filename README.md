@@ -1113,3 +1113,23 @@ if (string1 < string2) it returns a negative value.
 		}
 		
 https://www.geeksforgeeks.org/compare-two-strings-lexicographically-in-java/
+
+call the capitalize() method whenever you want to make the first letter of a string uppercase:
+
+System.out.println(capitalize("hello world!")); // Hello world!
+
+System.out.println(capitalize("heLLo")); // HeLLo
+
+System.out.println(capitalize(null)); // null
+
+
+		String str = "hello world!";
+
+		// capitalize first letter
+		String output = str.substring(0, 1).toUpperCase() + str.substring(1);
+
+		// print the string
+		System.out.println(output);
+		// Hello world!
+		
+https://attacomsian.com/blog/capitalize-first-letter-of-string-java#:~:text=The%20simplest%20way%20to%20capitalize,substring(0%2C%201).
