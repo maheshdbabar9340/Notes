@@ -1083,3 +1083,33 @@ A Locale object logically consists of the fields like languages, script, country
 		      System.out.println("HashCode for this locale: " + locale1.hashCode());  
 		   }  
 		}
+
+
+		int compareTo(String str) :
+
+It returns the following values:
+
+if (string1 > string2) it returns a positive value.
+
+if both the strings are equal lexicographically
+i.e.(string1 == string2) it returns 0.
+
+if (string1 < string2) it returns a negative value.
+
+		public class Test 
+		{ 
+		    public static void main(String[] args) 
+		    { 
+			String s1 = "Ram"; 
+			String s2 = "Ram"; 
+			String s3 = "Shyam"; 
+			String s4 = "ABC"; 
+
+			System.out.println(" Comparing strings with compareTo:"); 
+			System.out.println(s1.compareTo(s2)); 
+			System.out.println(s1.compareTo(s3)); 
+			System.out.println(s1.compareTo(s4)); 
+		    } 
+		}
+		
+https://www.geeksforgeeks.org/compare-two-strings-lexicographically-in-java/
