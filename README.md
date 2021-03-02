@@ -14,7 +14,27 @@ https://www.geeksforgeeks.org/handling-eoferror-exception-in-python/
 https://www.programiz.com/python-programming/methods/list/reverse
 
 ** Java **
+From Bottom >>..
 
+The java string toCharArray() method converts the given string into a sequence of characters. 
+
+The returned array length is equal to the length of the string.
+
+
+public char[] toCharArray()   
+Return : It returns a newly allocated character array.
+
+		class Gfg { 
+		    public static void main(String args[]) 
+		    { 
+			String s = "GeeksforGeeks"; 
+			char[] gfg = s.toCharArray(); 
+			for (int i = 0; i < gfg.length; i++) { 
+			    System.out.println(gfg[i]); 
+			} 
+		    } 
+		} 
+From Top..>>....
 Java Type Casting
 Type casting is when you assign a value of one primitive data type to another type.
 
