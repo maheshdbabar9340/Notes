@@ -16,6 +16,16 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Arrays.sort() 
+
+		public static void sort(int[] arr, int from_Index, int to_Index)
+
+		arr - the array to be sorted
+		from_Index - the index of the first element, inclusive, to be sorted
+		to_Index - the index of the last element, exclusive, to be sorted
+
+This method doesn't return any value.
+
 The java string toCharArray() method converts the given string into a sequence of characters. 
 
 The returned array length is equal to the length of the string.
