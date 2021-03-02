@@ -16,6 +16,10 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Arrays. equals(Object[] a, Object[] a2) method returns true if the two specified arrays of objects are equal to one another. 
+
+The two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal.
+
 Arrays.sort() 
 
 		public static void sort(int[] arr, int from_Index, int to_Index)
