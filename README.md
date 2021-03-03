@@ -16,6 +16,37 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+While operating upon strings, there are times when we need to convert a number represented as a string into an integer type. 
+
+The method generally used to convert String to Integer in Java is parseInt(). This method belongs to Integer class in java.lang package. 
+
+It takes a valid string as a parameter and parses it into primitive data type int. 
+
+It only accepts String as a parameter and on passing values of any other data type, it produces an error due to incompatible types.
+
+		public class GFG { 
+		    public static void main(String args[]) 
+		    { 
+			int decimalExample = Integer.parseInt("20"); 
+			int signedPositiveExample = Integer.parseInt("+20"); 
+			int signedNegativeExample = Integer.parseInt("-20"); 
+			int radixExample = Integer.parseInt("20", 16); 
+			int stringExample = Integer.parseInt("geeks", 29); 
+
+			System.out.println(decimalExample); 
+			System.out.println(signedPositiveExample); 
+			System.out.println(signedNegativeExample); 
+			System.out.println(radixExample); 
+			System.out.println(stringExample); 
+		    } 
+		} 
+		Output:
+		20
+		20
+		-20
+		32
+		11670324
+
 Java For-each Loop | Enhanced For Loop
 
  It provides an alternative approach to traverse the array or collection in Java. 
