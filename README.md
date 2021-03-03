@@ -16,6 +16,39 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Java For-each Loop | Enhanced For Loop
+
+ It provides an alternative approach to traverse the array or collection in Java. 
+ 
+ It is mainly used to traverse the array or collection elements. 
+ 
+ The advantage of the for-each loop is that it eliminates the possibility of bugs and makes the code more readable. 
+ 
+ It is known as the for-each loop because it traverses each element one by one.
+ 
+ The drawback of the enhanced for loop is that it cannot traverse the elements in reverse order.
+ 
+	 Advantages
+	It makes the code more readable.
+	It eliminates the possibility of programming errors.
+	
+	for(data_type variable : array | collection){  
+		//body of for-each loop  
+		}
+		
+		//An example of Java for-each loop  
+		class ForEachExample1{  
+		  public static void main(String args[]){  
+		   //declaring an array  
+		   int arr[]={12,13,14,44};  
+		   //traversing the array with for-each loop  
+		   for(int i:arr){  
+		     System.out.println(i);  
+		   }  
+		 }   
+		}  
+
+
 The java lang.string.trim()is a built-in function that eliminates leading and trailing spaces. 
 
 The Unicode value of space character is ‘\u0020’. 
