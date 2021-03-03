@@ -16,6 +16,8 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The string split() method breaks a given string around matches of the given regular expression.
+
 Arrays. equals(Object[] a, Object[] a2) method returns true if the two specified arrays of objects are equal to one another. 
 
 The two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal.
