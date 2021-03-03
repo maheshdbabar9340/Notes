@@ -16,6 +16,43 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The compile(String) method of the Pattern class in Java is used to create a pattern from the regular expression passed as parameter to method. 
+
+Whenever you need to match a text against a regular expression pattern more than one time, create a Pattern instance using the Pattern.compile() method.
+
+		import java.util.regex.*; 
+
+		public class GFG { 
+		    public static void main(String[] args) 
+		    { 
+			// create a REGEX String 
+			String REGEX = ".*www.*"; 
+
+			// creare the string 
+			// in which you want to search 
+			String actualString 
+			    = "www.geeksforgeeks.org"; 
+
+			// compile the regex to create pattern 
+			// using compile() method 
+			Pattern pattern = Pattern.compile(REGEX); 
+
+			// get a matcher object from pattern 
+			Matcher matcher = pattern.matcher(actualString); 
+
+			// check whether Regex string is 
+			// found in actualString or not 
+			boolean matches = matcher.matches(); 
+
+			System.out.println("actualString "
+					   + "contains REGEX = "
+					   + matches); 
+		    } 
+		} 
+		Output:
+		actualString contains REGEX = true
+
+			********
 While operating upon strings, there are times when we need to convert a number represented as a string into an integer type. 
 
 The method generally used to convert String to Integer in Java is parseInt(). This method belongs to Integer class in java.lang package. 
