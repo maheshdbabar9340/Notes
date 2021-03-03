@@ -16,7 +16,27 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The java lang.string.trim()is a built-in function that eliminates leading and trailing spaces. 
+
+The Unicode value of space character is ‘\u0020’. 
+
+The trim() method in java checks this Unicode value before and after the string, if it exists then removes the spaces and returns the omitted string.
+
 The string split() method breaks a given string around matches of the given regular expression.
+
+		// Java program to demonstrate working of split(regex, 
+		// limit) with small limit. 
+		public class GFG { 
+			public static void main(String args[]) 
+			{ 
+				String str = "geekss@for@geekss"; 
+				String[] arrOfStr = str.split("@", 2); 
+
+				for (String a : arrOfStr) 
+					System.out.println(a); 
+			} 
+		} 
+
 
 Arrays. equals(Object[] a, Object[] a2) method returns true if the two specified arrays of objects are equal to one another. 
 
