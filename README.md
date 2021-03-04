@@ -56,9 +56,11 @@ Brackets are used to find a range of characters:
 		n{x}		Matches any string that contains a sequence of X n's
 		n{x,y}		Matches any string that contains a sequence of X to Y n's
 		n{x,}		Matches any string that contains a sequence of at least X n's
+https://www.javatpoint.com/java-regex
 https://www.w3schools.com/java/java_regex.asp
 
-
+				*************
+				
 The compile(String) method of the Pattern class in Java is used to create a pattern from the regular expression passed as parameter to method. 
 
 Whenever you need to match a text against a regular expression pattern more than one time, create a Pattern instance using the Pattern.compile() method.
