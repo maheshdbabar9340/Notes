@@ -62,6 +62,10 @@ flag: This parameter is an integer representing Match flags, a bit mask that may
 		} 
 		Output:
 		actualString contains REGEX = false
+		
+		
+https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html#sum
+
 
 				*************
 				
