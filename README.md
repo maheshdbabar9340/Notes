@@ -16,6 +16,27 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+A regular expression is a sequence of characters that forms a search pattern. 
+
+When you search for data in a text, you can use this search pattern to describe what you are searching for.
+
+A regular expression can be a single character, or a more complicated pattern.
+
+Regular expressions can be used to perform all types of text search and text replace operations.
+
+Regular Expression Patterns
+The first parameter of the Pattern.compile() method is the pattern. It describes what is being searched for.
+
+Brackets are used to find a range of characters:
+
+Expression	Description
+[abc]		Find one character from the options between the brackets
+[^abc]		Find one character NOT between the brackets
+[0-9]		Find one character from the range 0 to 9
+
+https://www.w3schools.com/java/java_regex.asp
+
+
 The compile(String) method of the Pattern class in Java is used to create a pattern from the regular expression passed as parameter to method. 
 
 Whenever you need to match a text against a regular expression pattern more than one time, create a Pattern instance using the Pattern.compile() method.
