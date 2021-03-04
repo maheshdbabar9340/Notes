@@ -16,6 +16,55 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+The compile(String, int) method of the Pattern class used to create a pattern from the regular expression with the help of flags where both expression and flags are passed as parameters to the method. 
+
+The Pattern class contains a list of flags (int constants) that can be helpful to make the Pattern matching behave in certain ways. 
+
+For example, The flag name CASE_INSENSITIVE is used to ignore the case of the text at the time of matching
+
+regex: This parameter represents the given regular expression compiled into a pattern.
+
+flag: This parameter is an integer representing Match flags, a bit mask that may include CASE_INSENSITIVE, MULTILINE, DOTALL, UNICODE_CASE, CANON_EQ, UNIX_LINES, LITERAL, UNICODE_CHARACTER_CLASS and COMMENTS.
+
+
+		// Java program to demonstrate 
+		// Pattern.compile method 
+
+		import java.util.regex.*; 
+
+		public class GFG { 
+		    public static void main(String[] args) 
+		    { 
+			// create a REGEX String 
+			String REGEX = "(.*)(for)(.*)?"; 
+
+			// create the string 
+			// in which you want to search 
+			String actualString 
+			    = "code of Machine"; 
+
+			// compile the regex to create pattern 
+			// using compile() method 
+			Pattern pattern = Pattern.compile(REGEX,  
+					   Pattern.CASE_INSENSITIVE); 
+
+			// check whether Regex string is 
+			// found in actualString or not 
+			boolean matches = pattern 
+					      .matcher(actualString) 
+					      .matches(); 
+
+			System.out.println("actualString "
+					   + "contains REGEX = "
+					   + matches); 
+		    } 
+		} 
+		Output:
+		actualString contains REGEX = false
+
+				*************
+				
 A regular expression is a sequence of characters that forms a search pattern. 
 
 When you search for data in a text, you can use this search pattern to describe what you are searching for.
