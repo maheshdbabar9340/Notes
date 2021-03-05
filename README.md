@@ -16,6 +16,17 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The group method returns the matched input sequence captured by the previous match in the form of the string. 
+
+This method returns the empty string when the pattern successfully matches the empty string in the input.
+
+		No.	Method				Description
+		1	String group()			Returns the matched sequence captured by the previous match as the string.
+		2	String group(int group)		Returns the matched sequence captured by the given group during the previous match operation as the string.
+		3	String group(String name)	Returns the matched sequence captured by the given named group during the previous match operation or null if the match 							fails.
+		
+
+				*************
 The method generally used to convert String to Integer in Java is parseInt().
 
 This method belongs to Integer class in java. lang package. 
