@@ -16,6 +16,14 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The method generally used to convert String to Integer in Java is parseInt().
+
+This method belongs to Integer class in java. lang package. 
+
+It takes a valid string as a parameter and parses it into primitive data type int.
+
+				**********
+				
 
 The compile(String, int) method of the Pattern class used to create a pattern from the regular expression with the help of flags where both expression and flags are passed as parameters to the method. 
 
