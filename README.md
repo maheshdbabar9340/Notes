@@ -16,6 +16,18 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Arrays class in java provide the method Arrays.equals() to check whether two arrays are equal or not.
+
+		Syntax :
+		public static boolean equals(int[] a, int[] a2)
+		Parameters :
+		a - one array to be tested for equality
+		a2 - the other array to be tested for equality
+		Returns : 
+		true if the two arrays are equal
+
+
+				***********
 Arrays.sort(array)
 
 1. Sorting an array of primitives:
