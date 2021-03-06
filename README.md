@@ -16,6 +16,17 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Comparator interface is used to order the objects of user-defined classes. 
+
+A comparator object is capable of comparing two objects of two different classes. 
+Following function compare obj1 with obj2
+
+		Syntax: 
+
+		public int compare(Object obj1, Object obj2):
+
+
+				************
 The group method returns the matched input sequence captured by the previous match in the form of the string. 
 
 This method returns the empty string when the pattern successfully matches the empty string in the input.
