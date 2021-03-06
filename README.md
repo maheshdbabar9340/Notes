@@ -26,7 +26,28 @@ Arrays class in java provide the method Arrays.equals() to check whether two arr
 		Returns : 
 		true if the two arrays are equal
 
+			import java.util.Arrays; 
+  
+			public class ArrayEqualDemo  
+			{ 
+			    public static void main(String[] args)  
+			    { 
+				// Let us create different integers arrays 
+				int[] arr1 = new int [] {1, 2, 3, 4}; 
+				int[] arr2 = new int [] {1, 2, 3, 4}; 
+				int[] arr3 = new int [] {1, 2, 4, 3}; 
 
+				System.out.println("is arr1 equals to arr2 : " + 
+							Arrays.equals(arr1, arr2)); 
+				System.out.println("is arr1 equals to arr3 : " + 
+							Arrays.equals(arr1, arr3)); 
+			    } 
+			} 
+			Output:
+
+			is arr1 equals to arr2 : true
+			is arr1 equals to arr3 : false
+			
 				***********
 Arrays.sort(array)
 
