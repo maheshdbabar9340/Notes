@@ -16,6 +16,19 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The java.math.BigInteger.isProbablePrime(int certainty) method is used to tell if this BigInteger is probably prime or if it’s definitely composite.
+
+This method checks for prime or composite upon the current BigInteger by which this method is called and returns a boolean value. 
+
+It returns true if this BigInteger is probably prime, false if it’s definitely composite. If certainty is <= 0, true is returned.
+
+		Syntax:
+
+		public boolean isProbablePrime(int certainty)
+
+https://www.tutorialspoint.com/java/math/biginteger_isprobableprime.htm
+				
+				**************
 
 Java Convert String to int
 We can convert String to an int in java using Integer.parseInt() method. To convert String into Integer, we can use Integer.valueOf() method which returns instance of Integer class.
