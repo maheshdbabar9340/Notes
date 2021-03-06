@@ -16,6 +16,52 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Integer.MAX_VALUE
+Integer.MAX_VALUE is a constant in the Integer class of java.lang package that specifies that stores the maximum possible value for any integer variable in Java. 
+
+The actual value of this is
+2^31-1 = 2147483647
+
+		class GFG { 
+  
+		    // Driver code 
+		    public static void main(String[] arg) 
+		    { 
+
+			// Print the value of Integer.MAX_VALUE 
+			System.out.println("Integer.MAX_VALUE = "
+					   + Integer.MAX_VALUE); 
+		    } 
+		} 
+		Output:
+		Integer.MAX_VALUE = 2147483647
+		
+Integer.MIN_VALUE is a constant in the Integer class of java.lang package that specifies that stores the minimum possible value for any integer variable in Java. 
+
+The actual value of this is
+-2^31 = -2147483648
+
+		Example 3:
+
+
+		// Java program to show 
+		// the value of Integer.MIN_VALUE 
+
+		class GFG { 
+
+		    // Driver code 
+		    public static void main(String[] arg) 
+		    { 
+
+			// Print the value of Integer.MIN_VALUE 
+			System.out.println("Integer.MIN_VALUE = "
+					   + Integer.MIN_VALUE); 
+		    } 
+		} 
+		Output:
+		Integer.MIN_VALUE = -2147483648
+
+				*********
 Arrays in Java
 
 https://www.geeksforgeeks.org/arrays-in-java/
