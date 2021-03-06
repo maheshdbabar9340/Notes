@@ -16,6 +16,46 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+Java Convert String to int
+We can convert String to an int in java using Integer.parseInt() method. To convert String into Integer, we can use Integer.valueOf() method which returns instance of Integer class.
+
+		Java String to int Example: Integer.parseInt()
+		Let's see the simple code to convert a string to an int in java.
+
+		int i=Integer.parseInt("200");  
+		Let's see the simple example of converting String to int in Java.
+
+		//Java Program to demonstrate the conversion of String into int  
+		//using Integer.parseInt() method  
+		public class StringToIntExample1{  
+		public static void main(String args[]){  
+		//Declaring String variable  
+		String s="200";  
+		//Converting String into int using Integer.parseInt()  
+		int i=Integer.parseInt(s);  
+		//Printing value of i  
+		System.out.println(i);  
+		}} 
+		
+			Java String to Integer Example: Integer.valueOf()
+			The Integer.valueOf() method converts String into Integer object. Let's see the simple code to convert String to Integer in Java.
+
+			//Java Program to demonstrate the conversion of String into Integer  
+			//using Integer.valueOf() method  
+			public class StringToIntegerExample2{  
+			public static void main(String args[]){  
+			//Declaring a string  
+			String s="200";  
+			//converting String into Integer using Integer.valueOf() method  
+			Integer i=Integer.valueOf(s);  
+			System.out.println(i);  
+			}}  
+
+https://www.javatpoint.com/java-string-to-int#:~:text=We%20can%20convert%20String%20to,returns%20instance%20of%20Integer%20class.
+
+			**************
+			
 Arrays class in java provide the method Arrays.equals() to check whether two arrays are equal or not.
 
 		Syntax :
