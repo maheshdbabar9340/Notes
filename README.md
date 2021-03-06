@@ -16,6 +16,12 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+The java.math.BigInteger.add(BigInteger val) returns a BigInteger object whose value is (this + val).
+
+The java.math.BigInteger.multiply(BigInteger val) returns a BigInteger whose value is (this * val).
+
+			*************
 The java.math.BigInteger.isProbablePrime(int certainty) method is used to tell if this BigInteger is probably prime or if it’s definitely composite.
 
 This method checks for prime or composite upon the current BigInteger by which this method is called and returns a boolean value. 
