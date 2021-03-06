@@ -16,6 +16,11 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+A toString() is an in-built method in Java that returns the value given to it in string format. 
+
+Hence, any object that this method is applied on, will then be returned as a string object.
+
+				***********
 Comparator interface is used to order the objects of user-defined classes. 
 
 A comparator object is capable of comparing two objects of two different classes. 
