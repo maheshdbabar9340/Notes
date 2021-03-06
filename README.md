@@ -16,6 +16,16 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Arrays.sort(array)
+
+1. Sorting an array of primitives:
+		
+		int[] numbers = {4, 9, 1, 3, 2, 8, 7, 0, 6, 5};
+		java.util.Arrays.sort(numbers);
+
+codejava.net/java-core/collections/sorting-arrays-examples-with-comparable-and-comparator
+
+				***********
 A toString() is an in-built method in Java that returns the value given to it in string format. 
 
 Hence, any object that this method is applied on, will then be returned as a string object.
