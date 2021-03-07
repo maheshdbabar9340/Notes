@@ -45,6 +45,7 @@ ArrayList : Dynamic sized arrays in Java that implement List interface.
 				System.out.println(arr[0]); 
 
 				/*............ArrayList..............*/
+				// Need not to specify size  
 				// Create an arrayList with initial capacity 2 
 				ArrayList<Integer> arrL = new ArrayList<Integer>(2); 
 
