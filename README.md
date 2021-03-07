@@ -16,6 +16,54 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Array: Simple fixed sized arrays that we create in Java, like below
+
+		      int arr[] = new int[10]  
+		      
+ArrayList : Dynamic sized arrays in Java that implement List interface.
+
+		      ArrayList<Type> arrL = new ArrayList<Type>();
+		      Here Type is the type of elements in ArrayList to
+		      be created
+		      
+		      
+
+// A Java program to demonstrate differences between array 
+// and ArrayList 
+
+			import java.util.ArrayList; 
+			import java.util.Arrays; 
+
+			class Test 
+			{ 
+			    public static void main(String args[]) 
+			    { 
+				/* ........... Normal Array............. */
+				int[] arr = new int[2]; 
+				arr[0] = 1; 
+				arr[1] = 2; 
+				System.out.println(arr[0]); 
+
+				/*............ArrayList..............*/
+				// Create an arrayList with initial capacity 2 
+				ArrayList<Integer> arrL = new ArrayList<Integer>(2); 
+
+				// Add elements to ArrayList 
+				arrL.add(1); 
+				arrL.add(2); 
+
+				// Access elements of ArrayList 
+				System.out.println(arrL.get(0)); 
+			    } 
+			} 
+			Output:
+
+			1
+			1
+    
+
+				*************
+
 Integer.MAX_VALUE
 Integer.MAX_VALUE is a constant in the Integer class of java.lang package that specifies that stores the maximum possible value for any integer variable in Java. 
 
