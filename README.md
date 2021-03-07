@@ -16,7 +16,47 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+The java.lang.reflect.Array.get() is an inbuilt method in Java and is used to return the element at a given index from the specified Array.
 
+		Syntax
+
+		Array.get(Object []array, int index)
+		
+			import java.lang.reflect.Array; 
+  
+			public class GfG { 
+			    // main method 
+			    public static void main(String[] args) 
+			    { 
+				// Declaring and defining an int array 
+				int a[] = { 1, 2, 3, 4, 5 }; 
+
+				// Traversing the array 
+				for (int i = 0; i < 5; i++) { 
+
+				    // Array.get method 
+				    // Note : typecasting is essential 
+				    // as the return type in Object. 
+				    int x = (int)Array.get(a, i); 
+
+				    // Printing the values 
+				    System.out.print(x + " "); 
+				} 
+			    } 
+			} 
+			Output:
+			1 2 3 4 5
+			
+Parameters : This method accepts two mandatory parameters:
+
+		array: The object array whose index is to be returned.
+		index: The particular index of the given array. The element at ‘index’ in the given array is returned.
+		Return Value: This method returns the element of the array as type of Object class.
+
+			
+				**********
+				
+Get() method of List Interface:
 
 The get() method of List interface in Java is used to get the element present in this list at a given specific index.
 
@@ -48,6 +88,8 @@ The get() method of List interface in Java is used to get the element present in
 		The element at index 2 is 30
 		
 https://www.geeksforgeeks.org/list-get-method-in-java-with-examples/
+
+https://www.javatpoint.com/java-list-get-method
 
 				*************
 				
