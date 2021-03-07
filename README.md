@@ -16,6 +16,41 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+
+The get() method of List interface in Java is used to get the element present in this list at a given specific index.
+
+		import java.util.*; 
+
+		public class GFG { 
+		    public static void main(String[] args) 
+		    { 
+			// creating an Empty Integer List 
+			List<Integer> arr = new ArrayList<Integer>(4); 
+
+			// using add() to initialize values 
+			// [10, 20, 30, 40] 
+			arr.add(10); 
+			arr.add(20); 
+			arr.add(30); 
+			arr.add(40); 
+
+			System.out.println("List: " + arr); 
+
+			// element at index 2 
+			int element = arr.get(2); 
+
+			System.out.println("The element at index 2 is " + element); 
+		    } 
+		} 
+		Output:
+		List: [10, 20, 30, 40]
+		The element at index 2 is 30
+		
+https://www.geeksforgeeks.org/list-get-method-in-java-with-examples/
+
+				*************
+				
 Array: Simple fixed sized arrays that we create in Java, like below
 
 		      int arr[] = new int[10]  
