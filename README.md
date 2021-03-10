@@ -16,6 +16,11 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+Java String equals() Method
+
+https://www.w3schools.com/java/ref_string_equals.asp
+
+					************
 LinkedList in java
 
 https://www.javatpoint.com/java-linkedlist
