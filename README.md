@@ -16,6 +16,13 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+List Interface in Java with Examples
+
+https://www.geeksforgeeks.org/list-interface-java-examples/
+
+					**********
+					
 The java.lang.reflect.Array.get() is an inbuilt method in Java and is used to return the element at a given index from the specified Array.
 
 		Syntax
