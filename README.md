@@ -16,6 +16,11 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+LinkedList in java
+
+https://www.javatpoint.com/java-linkedlist
+
+					************
 
 Difference between ArrayList and LinkedList
 
