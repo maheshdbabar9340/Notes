@@ -16,6 +16,12 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+
+Difference between ArrayList and LinkedList
+
+https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
+
+					***************
 Java.util.ArrayList.remove() Method
 
 https://www.tutorialspoint.com/java/util/arraylist_remove.htm
