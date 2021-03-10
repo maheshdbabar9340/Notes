@@ -16,6 +16,22 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+diff between next and nextline in java
+
+next() can read the input only till the space. ... Also, next() places the cursor in the same line after reading the input. 
+
+nextLine() reads input including space between the words (that is, it reads till the end of line \n). 
+
+Once the input is read, nextLine() positions the cursor in the next line.
+
+					************
+
+Scanner nextLine() method in Java with Examples
+
+https://www.geeksforgeeks.org/scanner-nextline-method-in-java-with-examples/
+
+					***************
+					
 Java Map Interface
 
 https://www.javatpoint.com/java-map
