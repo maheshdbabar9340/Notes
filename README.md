@@ -16,6 +16,12 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+HashMap containsKey() Method in Java
+
+https://www.geeksforgeeks.org/hashmap-containskey-method-in-java/
+
+					***********
+
 diff between next and nextline in java
 
 next() can read the input only till the space. ... Also, next() places the cursor in the same line after reading the input. 
