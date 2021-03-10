@@ -16,6 +16,12 @@ https://www.programiz.com/python-programming/methods/list/reverse
 ** Java **
 From Bottom >>..
 
+HashMap get() Method in Java
+
+https://www.geeksforgeeks.org/hashmap-get-method-in-java/
+
+					**********
+					
 HashMap containsKey() Method in Java
 
 https://www.geeksforgeeks.org/hashmap-containskey-method-in-java/
