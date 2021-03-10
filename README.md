@@ -21,6 +21,8 @@ Difference between ArrayList and LinkedList
 
 https://www.javatpoint.com/difference-between-arraylist-and-linkedlist
 
+https://www.geeksforgeeks.org/arraylist-vs-linkedlist-java/
+
 					***************
 Java.util.ArrayList.remove() Method
 
