@@ -277,7 +277,9 @@ It returns true if this BigInteger is probably prime, false if it’s definitely
 		public boolean isProbablePrime(int certainty)
 
 https://www.tutorialspoint.com/java/math/biginteger_isprobableprime.htm
-				
+		
+
+		
 				**************
 
 Java Convert String to int
@@ -316,7 +318,6 @@ We can convert String to an int in java using Integer.parseInt() method. To conv
 			}}  
 
 https://www.javatpoint.com/java-string-to-int#:~:text=We%20can%20convert%20String%20to,returns%20instance%20of%20Integer%20class.
-
 			**************
 			
 Arrays class in java provide the method Arrays.equals() to check whether two arrays are equal or not.
