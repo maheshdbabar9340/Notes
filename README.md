@@ -4,7 +4,6 @@
 
 https://dev.to/davidepacilio/30-free-react-dashboard-templates-and-themes-49g4
 
-
 ** CSS **
 
 10 Helpful CSS Tips
@@ -12,9 +11,7 @@ https://dev.to/davidepacilio/30-free-react-dashboard-templates-and-themes-49g4
 https://dev.to/mrwolferinc/10-helpful-css-tips-4669
 
 
-
 ** Python **
-
 
 
 1.How to print a list without brackets in python
