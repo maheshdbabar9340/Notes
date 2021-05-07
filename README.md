@@ -6,7 +6,7 @@ Three types of machine learning
 
 
 	Unsupervised learning: 
-	There are no labels or correct outputs. The task is to discover the structure of the data: for example, grouping similar items to form “clusters”, or reducing the data 	to a small number of important “dimensions”. Data visualization can also be considered unsupervised learning.
+	There are no labels or correct outputs. The task is to discover the structure of the data: for example, grouping similar items to form “clusters”, or reducing the data to a small number of important “dimensions”. Data visualization can also be considered unsupervised learning.
 	
 	Reinforcement learning: 
 	Commonly used in situations where an AI agent like a self-driving car must operate in an environment and where feedback about good or bad choices is available with some 	 delay. Also used in games where the outcome may be decided only at the end of the game.
