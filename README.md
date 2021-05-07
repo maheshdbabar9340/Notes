@@ -26,7 +26,8 @@ What is a robot?
  
 	 A taxonomy is a scheme for classifying many things that may be special cases of one another. 
  
- 
+ ![image](https://user-images.githubusercontent.com/53929423/117426916-16ca6f80-af42-11eb-8c30-e4846b477b88.png)
+
  
 ** React **
 
