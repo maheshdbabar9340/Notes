@@ -1,3 +1,13 @@
+Artificial Intelligence
+
+	"cool things that computers can't do"
+	
+	machines imitating intelligent human behavior
+	
+	autonomous and adaptive systems
+
+
+
 Machine learning
 
 Systems that improve their performance in a given task with more and more experience or data.
@@ -25,6 +35,10 @@ What is a robot?
  Taxonomy of AI
  
 	 A taxonomy is a scheme for classifying many things that may be special cases of one another.
+
+
+
+
 	 
  
 ![image](https://user-images.githubusercontent.com/53929423/117427287-850f3200-af42-11eb-8013-03c856b3cbc4.png)
