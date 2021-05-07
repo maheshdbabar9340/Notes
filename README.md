@@ -8,7 +8,19 @@ Data science is a recent umbrella term (term that covers several subdisciplines)
 
 Robotics means building and programming robots so that they can operate in complex, real-world scenarios. 
 
+Autonomy
 
+	The ability to perform tasks in complex environments without constant guidance by a user.
+
+Adaptivity
+
+	The ability to improve performance by learning from experience.
+
+What is a robot?
+
+	In brief, a robot is a machine comprising sensors (which sense the environment) and actuators (which act on the environment) that can be programmed to perform sequences 		of actions. 
+
+	People used to science-fictional depictions of robots will usually think of humanoid machines walking with an awkward gait and speaking in a metallic monotone.
 
 
 ** React **
