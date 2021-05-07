@@ -1,3 +1,16 @@
+Machine learning
+
+Systems that improve their performance in a given task with more and more experience or data.
+
+Deep learning is a subfield of machine learning, which itself is a subfield of AI, which itself is a subfield of computer science.
+
+Data science is a recent umbrella term (term that covers several subdisciplines) that includes machine learning and statistics, certain aspects of computer science including algorithms, data storage, and web application development.
+
+Robotics means building and programming robots so that they can operate in complex, real-world scenarios. 
+
+
+
+
 ** React **
 
 30 Free React dashboard templates and themes
