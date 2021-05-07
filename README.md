@@ -22,7 +22,12 @@ What is a robot?
 
 	People used to science-fictional depictions of robots will usually think of humanoid machines walking with an awkward gait and speaking in a metallic monotone.
 
-
+ Taxonomy of AI
+ 
+	 A taxonomy is a scheme for classifying many things that may be special cases of one another. 
+ 
+ 
+ 
 ** React **
 
 30 Free React dashboard templates and themes
