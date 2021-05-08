@@ -1,4 +1,4 @@
-Three types of machine learning
+Three types of machine learning :
 
 	Supervised learning: 
 	We are given an input, for example a photograph with a traffic sign, and the task is to predict the correct output or label, for example which 
