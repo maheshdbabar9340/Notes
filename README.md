@@ -1,4 +1,4 @@
-Elememts of AI
+Elememts of AI University of Helsinki 
 
 	https://course.elementsofai.com/
 	
