@@ -20,7 +20,7 @@ Three types of machine learning :
 	Reinforcement learning: 
 	Commonly used in situations where an AI agent like a self-driving car must operate in an environment and where feedback about good or bad choices is available with some 	 delay. Also used in games where the outcome may be decided only at the end of the game.
 	
-	
+
 	
 
 Artificial Intelligence
