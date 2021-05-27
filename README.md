@@ -2,9 +2,7 @@ Elememts of AI University of Helsinki
 
 	https://course.elementsofai.com/
 	
-	Certificate :
-	
-	https://certificates.mooc.fi/validate/g5e7xio2zjq
+	Certificate :    https://certificates.mooc.fi/validate/g5e7xio2zjq
 
 
 
