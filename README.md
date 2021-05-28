@@ -1,4 +1,4 @@
-100+ types of Loaders :
+100 types of Loaders :
 
 	https://dev.to/afif/another-100-css-loaders-for-your-next-project-352l
 
